@@ -12,3 +12,5 @@ var1=pd.DataFrame(data,index=['a','b','c']) #useing index=[elements]
 print(var1)
 print(var1.loc['b'])#to locate rows useing index names useing loc[]
 print(var1.loc[['c','a']])#for multiple rows we use loc[[index names]]
+print(var1.head()) #To display top 5 rows and colums of the data
+var1.head(10) #To display mentioned number of rows and columns of the data
